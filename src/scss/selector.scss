@@ -1,0 +1,21 @@
+.selector {
+  margin-top: auto;
+  margin-bottom: 0;
+
+  &__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #c4c4c4;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      color: #272727;
+    }
+  }
+}

@@ -20,8 +20,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #000;
-  background-color: rgb(255, 255, 255);
+  color: #ffffff;
+  background-color: #272727;
   overflow-x: hidden;
 }
 
@@ -60,17 +60,19 @@ body {
 }
 
 .container {
-  max-width: 1790px;
+  max-width: 1145px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .title {
   margin: 0;
-  font-family: "Chronicle Display";
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 77px;
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .subtitle {
@@ -80,11 +82,33 @@ body {
 
 .uptitle {
   margin: 0;
-  font-weight: 800;
-  line-height: 22px;
-  letter-spacing: 6px;
+  font-family: "futurapt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #fbd784;
+  color: #272727;
+}
+
+.text {
+  margin: 0;
+  font-family: "futurapt";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #757575;
+}
+
+.detail {
+  margin: 0;
+  font-family: "SegoeUI";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #e2b67a;
 }
 
 .link {
