@@ -3,7 +3,10 @@
   @@include('html/head.html',{ "title":"Главная" })
   <body>
     @@include('html/header.html',{})
-    <main>@@include('html/hero.html')</main>
+    <main>
+      @@include('html/hero.html') @@include('html/categorie.html')
+      @@include('html/find.html')
+    </main>
     @@include('html/footer.html',{})
     <script src="js/app.min.js"></script>
   </body>

@@ -118,3 +118,34 @@ body {
     border-bottom: 2px solid currentColor;
   }
 }
+
+.img-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.input {
+  width: calc(386px - 28px);
+  border-bottom: 1px solid #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 10px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  width: 28px;
+  height: 30px;
+  background-image: url("@img/icons/arrow-right.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 28px 15px;
+
+  border-bottom: 1px solid #fff;
+}
