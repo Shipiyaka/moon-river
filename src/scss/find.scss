@@ -11,10 +11,11 @@
     &_text {
       width: 50%;
       padding: 171px 0;
+      display: flex;
+      flex-direction: column;
     }
 
     &_img {
-      // width: 50%;
       width: calc(50% + ((100vw - 1115px) / 2));
       margin-right: calc((100vw - 1115px) * -1 / 2);
       background-image: url("@img/find/img-01.jpg");
